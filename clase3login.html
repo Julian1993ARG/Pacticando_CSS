@@ -12,15 +12,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/css.css"/>
     <link rel="stylesheet" href="css/media.css"/>
-    <title>Send</title>
+    <title>Create account</title>
   </head>
   <body>
     <div class="login">
       <div class="form-container">
         <img src="./img/log/logo_yard_sale.svg" alt="logo" class="logo">
-        <h1 class="title">Create a new password</h1>
-        <p class="subtitle">Enter a new password for your account</p>
 
+        <form action="/" class="form">
+          <label for="email" class="label">Email address</label>
+          <input type="text" id="email" placeholder="******@gmail.com" class="input input-password">
+
+          <label for="password" class="label">Password</label>
+          <input type="password" id="password" placeholder="*********" class="input new-input-password">
+        
+          <input type="submit" value="Log in" class="primary-button login-button">
+          <a href="/" class="secundary-button login-button">Forgot my password</a>
+        </form>
+        <input type="submit" value="Sign up" class="tertiary-button login-button ">
+       
       </div>
     </div>
   </body>
