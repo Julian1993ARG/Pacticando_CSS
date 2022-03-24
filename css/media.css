@@ -1,6 +1,11 @@
 @media (max-width:640px) {
     .logo{
         display: block;
+    }    
+    .tertiary-button {
+        position: relative; 
+        top: 100px;
     }
-    
 }
+
+

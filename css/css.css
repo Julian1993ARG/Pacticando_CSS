@@ -55,6 +55,31 @@ body{
     margin-bottom: 32px;
     text-align: center;
 }
+
+.email-image {
+    width: 130x;
+    height: 130px;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 24px ;  
+}
+.email-image img {
+    width: 80px;
+}
+.resend {
+    font-size: var(--sm);
+}
+.resend span {
+    color: var(--very-light-pink);
+}
+.resend a {
+    color: var(--hospital-green);
+    text-decoration: none;
+}
+
 .label{
     font-size: var(--sm);
     font-weight: bold;
@@ -85,7 +110,35 @@ body{
 
 .login-button{
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.secundary-button {
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background-color: var(--white);
+    border-radius: 8px;
+    border: none;
+    color:var(--hospital-green);
+    font-size: var(--sm);
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.tertiary-button {
+        width: 300px;
+        height: 50px;
+        cursor: pointer;
+        background-color: var(--white);
+        border-radius: 8px;
+        border: 1px solid var(--hospital-green);
+        color: var(--hospital-green);
+        font-size: var(--md);
+        font-weight: bold;
+        
+        
 }
 
 /*pagina email enviado*/
