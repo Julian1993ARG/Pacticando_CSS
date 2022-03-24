@@ -5,6 +5,10 @@
     --very-light-pink: #C7C7C7;
     --text-input-field: #F7F7F7;
     --hospital-green: #ACD9B2;
+    --sm:14px;
+    --md:16px;
+    --lg:18px;
+
 }
 
 body{
@@ -31,4 +35,54 @@ body{
     width: 150px;
     margin-bottom: 48px;
     justify-self: center;
+    display: none;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: var(--lg);
+    margin-bottom: 12px;
+    text-align: center;
+}
+.subtitle{
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.label{
+    font-size: var(--sm);
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.input{
+    background-color: var(--text-input-field);
+    border: none;
+    border-radius: 8px;
+    height: 32px;
+    font-size: var(--md);
+    padding: 6px;
+    margin-bottom: 12px;
+}
+
+.primary-button{
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    font-size: var(--md);
+    font-weight: bold;
+    
+}
+
+.login-button{
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
