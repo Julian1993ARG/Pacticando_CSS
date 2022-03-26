@@ -47,6 +47,12 @@ body{
     margin-bottom: 12px;
     text-align: center;
 }
+
+.title-four {
+    font-size: var(--lg);
+    margin-bottom: 12px;
+    text-align: start;
+}
 .subtitle{
     color: var(--very-light-pink);
     font-size: var(--md);
@@ -80,6 +86,12 @@ body{
     text-decoration: none;
 }
 
+.value {
+    color: var(--very-light-pink);
+    font-size: var(--md);
+    margin: 8px 0 32px 0;
+}
+
 .label{
     font-size: var(--sm);
     font-weight: bold;
@@ -92,7 +104,11 @@ body{
     height: 32px;
     font-size: var(--md);
     padding: 6px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+.input-password {
+    font-size: var(--sm);
 }
 
 .primary-button{
@@ -136,11 +152,10 @@ body{
         border: 1px solid var(--hospital-green);
         color: var(--hospital-green);
         font-size: var(--md);
-        font-weight: bold;
-        
-        
+        font-weight: bold;   
 }
 
+<<<<<<< HEAD
 /*pagina email enviado*/
 
 .email-image{
@@ -169,4 +184,16 @@ body{
 .resend a{
     color: var(--hospital-green);
     text-decoration: none;
+=======
+.fourth-button {
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    font-size: var(--md);
+    font-weight: bold;
+>>>>>>> e8301ce27cec69db974153f72d2b4ce0dd3c50c4
 }
