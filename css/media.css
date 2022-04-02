@@ -10,6 +10,15 @@
         position: relative; 
         top: 100px;
     }
-}
 
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 140px);
+    }
+    .product-img {
+        width: 140px;
+        height: 140px;
+     }    
+
+}
 
